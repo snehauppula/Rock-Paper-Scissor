@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <div class="score-container">
+                <div class="score-box">
+                    <span class="score-label">You</span>
+                    <span id="user-score" class="score">0</span>
+                </div>
+                <div class="score-box">
+                    <span class="score-label">Computer</span>
+                    <span id="computer-score" class="score">0</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="game-area">
+            <div id="result-display">
+                <div id="user-choice" class="choice">
+                    <div class="choice-icon">?</div>
+                    <p>Your Choice</p>
+                </div>
+                <div id="result-text">Choose your weapon!</div>
+                <div id="computer-choice" class="choice">
+                    <div class="choice-icon">?</div>
+                    <p>Computer's Choice</p>
+                </div>
+            </div>
+
+            <div class="choices">
+                <button class="choice-btn" data-choice="rock">
+                    <div class="btn-icon"><i class="fas fa-hand-rock"></i></div>
+                    <span>Rock</span>
+                </button>
+                <button class="choice-btn" data-choice="paper">
+                    <div class="btn-icon"><i class="fas fa-hand-paper"></i></div>
+                    <span>Paper</span>
+                </button>
+                <button class="choice-btn" data-choice="scissors">
+                    <div class="btn-icon"><i class="fas fa-hand-scissors"></i></div>
+                    <span>Scissors</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="reset-btn">Reset Game</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
