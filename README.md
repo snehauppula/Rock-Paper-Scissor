@@ -39,7 +39,7 @@ Challenge the computer and see who wins!
    - ✂️ Scissors beats 📄 Paper
    - 📄 Paper beats 🪨 Rock
 4. Result is displayed on screen.
-
+5. Shows who won the game
 ---
 
 ## 🤝 Contributing
